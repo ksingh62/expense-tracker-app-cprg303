@@ -5,7 +5,7 @@ const styles = StyleSheet.create({
 		justifyContent: "space-evenly",
 	},
 	container: {
-		flex: 1,
+		// flex: 1,
 		paddingHorizontal: 20,
 		paddingTop: 20,
 		backgroundColor: "#fff",

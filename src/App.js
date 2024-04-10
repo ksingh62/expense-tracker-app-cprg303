@@ -148,7 +148,7 @@ export default function App() {
       {/* Render the PieChart component with data */}
       <PieChart
         data={displayChartData}
-        width={350}
+        width={370}
         height={250}
         chartConfig={{
           backgroundGradientFrom: theme.background,
@@ -158,7 +158,7 @@ export default function App() {
         }}
         accessor={'amount'}
         backgroundColor={'transparent'}
-        paddingLeft={'15'}
+        // paddingLeft={'15'}
         center={[10, 10]}
         absolute
       />
